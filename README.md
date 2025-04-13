@@ -23,9 +23,8 @@ nexus/
 │   └── test_mcc_codes.py
 ├── output/
 ├── requirements/
-│   ├── base.txt
 │   ├── dev.txt
-│   └── prod.txt
+│   └── main.txt
 ├── scripts/
 │   └── run_scraper.py
 ├── config/
