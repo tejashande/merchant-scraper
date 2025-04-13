@@ -95,6 +95,20 @@ mypy .
 flake8
 ```
 
+### Makefile Commands
+The project includes a Makefile with convenient commands for common development tasks:
+
+```bash
+make install      # Install development dependencies
+make test        # Run tests
+make test-cov    # Run tests with coverage report
+make lint        # Run autoflake, isort, black, and flake8
+make format      # Format code with black and isort
+make type-check  # Run mypy type checking
+make clean       # Clean up Python cache files and build artifacts
+make run         # Run the scraper with default parameters
+```
+
 ## License
 
 MIT 
